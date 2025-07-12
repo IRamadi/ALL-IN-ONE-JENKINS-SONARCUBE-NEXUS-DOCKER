@@ -118,8 +118,6 @@ services:
     volumes:
       - ./jenkins:/var/jenkins_home
       - /var/run/docker.sock:/var/run/docker.sock
-    environment:
-      - JAVA_OPTS=-Djenkins.install.runSetupWizard=false
     networks:
       - devops-net
     healthcheck:
