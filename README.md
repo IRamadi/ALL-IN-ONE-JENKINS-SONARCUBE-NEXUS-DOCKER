@@ -46,7 +46,7 @@ This script performs the following actions:
 To run the script, simply execute the following command in your terminal:
 
 ```bash
-sudo bash setup-devops-stack.sh
+sudo bash ain.sh
 ```
 
 The script will guide you through the installation process and output all necessary access URLs and credentials upon completion.
